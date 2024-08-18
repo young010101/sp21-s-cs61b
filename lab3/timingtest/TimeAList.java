@@ -24,11 +24,11 @@ public class TimeAList {
     public static void timeAListConstruction() {
         // TODO: YOUR CODE HERE
         int N = 1000;
-        AList<Integer> als = new AList<>();
         AList<Integer> Ns = new AList<>();
         AList<Double> times = new AList<>();
         for (int i = 0; i < 8; i++) {
             Ns.addLast(N);
+            AList<Integer> als = new AList<>();
             Stopwatch sw = new Stopwatch();
             for (int j = 0; j < N; j++) {
                 als.addLast(j);
